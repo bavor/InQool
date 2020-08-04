@@ -9,9 +9,9 @@ const App = () => (
 
       <div className="Search">
         <div className="input-group mb-3">
-          <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+          <input type="text" className="form-control" placeholder="Enter Github username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
           <div className="input-group-append">
-            <span className="input-group-text" id="basic-addon2">@example.com</span>
+            <button type="button" className="btn btn-success">Submit</button>
           </div>
         </div>
       </div>
