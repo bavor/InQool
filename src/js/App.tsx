@@ -2,25 +2,29 @@ import React from 'react';
 import logo from '../img/logo.svg';
 import '../css/App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          yolo
-        </a>
-      </header>
+
+const App = () => (
+
+    <div className="main">
+
+      <div className="Search">
+        <div className="input-group mb-3">
+          <input type="text" className="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+          <div className="input-group-append">
+            <span className="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div className="Repositories">
+
+      </div>
+
+      <div className="Organizations">
+
+      </div>
+
     </div>
-  );
-}
+)
 
 export default App;
