@@ -22,6 +22,9 @@ const Index = () => (
           <h2 className="border-bottom  ">Users</h2>
       </div>
 
+
+
+
       <div className="col-12 col-md-10 offset-md-1">
         <div className="border-bottom views">
           <div className="row">
@@ -47,6 +50,10 @@ const Index = () => (
         </div>
       </div>
     
+
+
+
+
     </div>
   </div>
 )
