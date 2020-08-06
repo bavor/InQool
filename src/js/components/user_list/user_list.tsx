@@ -1,6 +1,6 @@
 import React from 'react';
 import axios from 'axios';
-import UserRow from '../user_row/user_row';
+import UserRow from '../user_row/user_detail';
 
 type props= { UserUrl: string}
 

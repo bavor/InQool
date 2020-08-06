@@ -1,6 +1,6 @@
 import React from 'react';
 import './index.sass'
-import GetUser from '../../components/get_user/get-user';
+import GetUser from '../../components/user_list/user_list';
 
 
 

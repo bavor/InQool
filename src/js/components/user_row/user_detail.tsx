@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from  "react-router-dom";
-import './user_row.sass'
+import './user_detail.sass'
 
 
 
@@ -8,6 +8,11 @@ const UserRow = () => {
     return(
         <div>
             
+
+
+
+
+
         </div>
     )
 
