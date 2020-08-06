@@ -18,16 +18,16 @@ const Index = () => (
         </div>
       </div>
 
-      <div className="col-12 col-md-10 offset-md-1">
-          <h2 className="my-4">Users</h2>
+      <div className="user-top col-12 col-md-10 offset-md-1">
+          <h2 className="border-bottom  ">Users</h2>
       </div>
 
       <div className="col-12 col-md-10 offset-md-1">
-        <div className="border views">
+        <div className="border-bottom views">
           <div className="row">
 
             <div className="col-6 views-text">
-            <p>dfasdf</p>
+              <p className="ml-2">dfasdf</p>
             </div>
 
             <div className="col-3">
