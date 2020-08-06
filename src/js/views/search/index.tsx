@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.sass'
+import GetUser from '../../components/get_user/get-user';
 
 const Index = () => (
   <div className="container">
@@ -19,10 +20,10 @@ const Index = () => (
       </div>
 
       <div className="user-top col-12 col-md-10 offset-md-1">
-          <h2 className="border-bottom  ">Users</h2>
+          <h2 className="border-bottom">Users</h2>
       </div>
 
-
+      <GetUser refer={"https://api.github.com/search/users?q=bavor"} />
 
 
       <div className="col-12 col-md-10 offset-md-1">
