@@ -19,30 +19,33 @@ const Index = () => (
       </div>
 
       <div className="col-12 col-md-10 offset-md-1">
-          <h2 className="my-4">Repositories</h2>
+          <h2 className="my-4">Users</h2>
       </div>
 
       <div className="col-12 col-md-10 offset-md-1">
-        <div className="border views-username ">
+        <div className="border views">
+          <div className="row">
+
+            <div className="col-6 views-text">
+            <p>dfasdf</p>
+            </div>
+
+            <div className="col-3">
+              <img src="https://www.mojeparty.cz/data/USR_045_DEFAULT/Balonek_foliovy_Duhovy_jednorozec_1ks_303129901.jpg"
+              alt="pony" className="img-fluid views-image " />
+            </div>
           
-            <img src="https://www.mojeparty.cz/data/USR_045_DEFAULT/Balonek_foliovy_Duhovy_jednorozec_1ks_303129901.jpg"
-              alt="pony" className="img-fluid views-image" />
-            <p className="col-1">dfasdf</p>
-            <i className="fa fa-star-o" aria-hidden="true"></i>
-            5.0
+            <div className="col-1 views-text">
+              <i className="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+
+            <div className="col-2 views-text">
+              5.0
+            </div>                       
+  
+          </div>
         </div>
       </div>
-
-      <div className="col-12 col-md-10 offset-md-1">
-      <h2 className="my-4">Organizations</h2>
-      </div>
-
-      <div className="col-12 col-md-10 offset-md-1">
-        <div className="Organizations row border">
-          <p>organizace</p>
-        </div>
-      </div>
-
     
     </div>
   </div>

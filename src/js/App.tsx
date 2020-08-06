@@ -5,7 +5,7 @@ import {
   Route,
   BrowserRouter as Router,
 } from 'react-router-dom'
-import Index from './views/index'
+import Index from './views/search/index'
 
 const App = () => (
   <Router>
