@@ -2,14 +2,14 @@ import React from 'react';
 import axios from 'axios';
 import UserRow from '../user_row/user_row';
 
-class GetUser extends React.Component{
-    constructor(props: any){
-        super(props);
-        this.state = {users:[]};
-    }
+type props= { UserUrl: string}
+
+class GetUser extends React.Component<props>{
+
+    state = {users:[]};
 
     componentDidMount(){
-        axios.get(this.props.refer)
+        axios.get(this.props.UserUrl)
             .then(res => {
                 this.setState({users: res.data.results});
             });

@@ -2,6 +2,9 @@ import React from 'react';
 import './index.sass'
 import GetUser from '../../components/get_user/get-user';
 
+
+
+
 const Index = () => (
   <div className="container">
     <div className="row">
@@ -23,7 +26,7 @@ const Index = () => (
           <h2 className="border-bottom">Users</h2>
       </div>
 
-      <GetUser refer={"https://api.github.com/search/users?q=bavor"} />
+      <GetUser UserUrl={"https://api.github.com/search/users?q=bavor"} />
 
 
       <div className="col-12 col-md-10 offset-md-1">
